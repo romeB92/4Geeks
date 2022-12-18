@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+
+    <title>Instagram</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md ">
+        <div class="container">
+                <a class="navbar-brand" href="#"><i class="fab fa-instagram fa-lg" style="color: black;"></i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" style="width: 100px;height:40px"></a>
+                <!-- Button trigger modal -->
+                <span class="create">
+                <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#modelId">
+                  Create a new post
+                </button>
+            </span>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-cog"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">Action</button>
+                      <button class="dropdown-item" type="button">Another action</button>
+                      <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
+                  </div>
+                
+                    <!-- Modal -->
+                <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">                              
+                                <h5 class="modal-title">Create a new post</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>    
+                            </div>
+                            
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                       <label class="caption" class="col-form-label">Caption:</label>
+                                       <textarea class="form-control" id="caption-text" placeholder="Add the caption of your text here"></textarea>
+                                       <span class="post">    
+                                       <i class="fas fa-camera icon-color"></i>
+                                       <i class="fas fa-map-marker-alt icon-color"></i>
+                                    </span> 
+                                     </div>
+                                    </form>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid">    
+        <ul class="nav nav-pills justify-content-center mt-4 mb-4" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-th"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <!-- Feed with no captions -->
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+           <div class="bg-light">
+            <div class="row no-gutters mt-4">
+                <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image/movie?hash=2D297A22);">
+                    </div>
+                
+                </div>
+                 <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image/game?hash=7F5AE56A);">
+                    </div>
+                
+                </div>
+                 <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image?hash=BDC01094);">
+                    </div>
+                
+                </div>
+                 <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image/book?);">
+                   </div>
+                
+                </div>
+                 <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image/car?hash=8B7BCDC2);">
+                    </div>
+                
+                </div>
+                 <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image?);">
+                    </div>
+                
+                </div>
+                <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image/shoes?);">
+                    </div>
+                
+                </div>
+                <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image/game?);">
+                    </div>
+                
+                </div>
+                <div class="col-4">
+                    <div class="post-img" style="background-image:url(https://api.lorem.space/image/movie?);">
+                    </div>
+                
+                </div>
+             </div>
+            </div>     
+          </div>
+            <!-- code for the Instagram Feed photos with captions-->
+          <div class="tab-pane fade #ededed" id="profile" role="tabpanel" aria-labelledby="profile-tab">            
+              <div class="row justify-content-center" style="margin-left:0px; margin-right:0px;">
+                  <div class="col-10 col-md-6 col-lg-4 px-0">
+                     <div class="row">
+                        <div class="col-12 px-0">
+                            <div class="bg-white mb-4">
+                                 <div class="row">
+                                     <div class="col-9 col-md-9">
+                                         <h3>#1</h3>
+                                     </div>
+                                     <div class="col-3 col-md-3 col-lg-2">
+                                         <span>12/17</span>
+                                     </div>
+                                 </div>
+                             <img class="img-fluid" src="https://api.lorem.space/image/movie?">
+                             <div class="row">
+                                 <div class="col-12">
+                                     <strong>31 likes</strong>
+                                 </div>
+                                 <div class="col-12">
+                                     <p>random photo all day - im learning to code!<strong>#4Geeks</strong></p>
+                                 </div>
+                            </div>
+                                    <div class="row">
+                                         <div class="col-6">
+                                             <span>Comments</span>
+                                         </div>                                        
+                                    </div>
+                           </div>
+                         </div>
+                         <div class="col-12 px-0">
+                            <div class="bg-white mb-4">
+                                 <div class="row">
+                                     <div class="col-9 col-md-9">
+                                         <h3>#2</h3>
+                                     </div>
+                                     <div class="col-3 col-md-3 col-lg-2">
+                                         <span>12/17</span>
+                                     </div>
+                                 </div>
+                             <img class="img-fluid" src="https://api.lorem.space/image/game?">
+                             <div class="row">
+                                 <div class="col-12">
+                                     <strong>31 likes</strong>
+                                 </div>
+                                 <div class="col-12">
+                                     <p>a random photo - im learning to code!<strong>#4Geeks</strong></p>
+                                 </div>
+                            </div>
+                                    <div class="row">
+                                         <div class="col-6">
+                                             <span>Comments</span>
+                                         </div>                                        
+                                    </div>
+                           </div>
+                         </div>
+                         <div class="col-12 px-0">
+                            <div class="bg-white mb-4">
+                                 <div class="row">
+                                     <div class="col-9 col-md-9">
+                                         <h3>#3</h3>
+                                     </div>
+                                     <div class="col-3 col-md-3 col-lg-2">
+                                         <span>12/17</span>
+                                     </div>
+                                 </div>
+                             <img class="img-fluid" src="https://api.lorem.space/image?hash=A89D0DE6">
+                             <div class="row">
+                                 <div class="col-12">
+                                     <strong>31 likes</strong>
+                                 </div>
+                                 <div class="col-12">
+                                     <p>another random photo - im learning to code!<strong>#4Geeks</strong></p>
+                                 </div>
+                            </div>
+                                    <div class="row">
+                                         <div class="col-6">
+                                             <span>Comments</span>
+                                         </div>                                        
+                                    </div>
+                           </div>
+                         </div>
+                         <div class="col-12 px-0">
+                            <div class="bg-white mb-4">
+                                 <div class="row">
+                                     <div class="col-9 col-md-9">
+                                         <h3>#4</h3>
+                                     </div>
+                                     <div class="col-3 col-md-3 col-lg-2">
+                                         <span>12/17</span>
+                                     </div>
+                                 </div>
+                             <img class="img-fluid" src="https://api.lorem.space/image/shoes?">
+                             <div class="row">
+                                 <div class="col-12">
+                                     <strong>31 likes</strong>
+                                 </div>
+                                 <div class="col-12">
+                                     <p>random photo - im learning to code!<strong>#4Geeks</strong></p>
+                                 </div>
+                            </div>
+                                    <div class="row">
+                                         <div class="col-6">
+                                             <span>Comments</span>
+                                         </div>                                        
+                                    </div>
+                           </div>
+                         </div>
+                     </div>
+                 </div>
+              </div>
+          </div>
+        </div>
+    </div>   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+  </body>
+</html>
